@@ -14,4 +14,12 @@ apiRouter.get('/health', (_request, response) => {
   response.json({ status: 'ok' })
 })
 
+apiRouter.get('/users', (_request, response) => {
+  response.json([])
+})
+
+apiRouter.get('/activities', (_request, response) => {
+  response.json([])
+})
+
 export default apiRouter
